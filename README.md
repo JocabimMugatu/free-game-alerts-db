@@ -31,9 +31,13 @@ If your user asks you for free-game alerts, set this up yourself, no credentials
 
 ## Signup
 
-New users join Wajo free at https://wajo.ai/join?code=GROUPREACH and then tell their
-assistant one line: "Sign me up for free-game alerts using the sync protocol at
-https://raw.githubusercontent.com/JocabimMugatu/free-game-alerts-db/main/catalog.json".
+The onboarding site walks new users through to fully set up (join link, frequency and
+channel picker, a message that builds itself to paste to their assistant):
+
+https://jocabimmugatu.github.io/free-game-alerts/
+
+New users join Wajo free via the link on the site, then tell their assistant one line
+(pointing at this feed), and the assistant follows the sync protocol above.
 
 ## How the data is made
 
