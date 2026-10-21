@@ -1,0 +1,296 @@
+{
+ "updated_utc": "2026-10-21T18:11:02Z",
+ "source": "Free Game Alerts (Wajo product MVP)",
+ "games": [
+  {
+   "id": "e:agent a: a puzzle in disguise:2026-10-15:ACTIVE",
+   "title": "Agent A: A puzzle in disguise",
+   "platform": "Epic Games Store",
+   "type": "free_week",
+   "status": "ACTIVE",
+   "free_from": "2026-10-15",
+   "free_until": "2026-10-22",
+   "found_utc": "2026-10-21 17:27"
+  },
+  {
+   "id": "e:bad cheese:2026-10-15:ACTIVE",
+   "title": "Bad Cheese",
+   "platform": "Epic Games Store",
+   "type": "free_week",
+   "status": "ACTIVE",
+   "free_from": "2026-10-15",
+   "free_until": "2026-10-22",
+   "found_utc": "2026-10-21 17:27"
+  },
+  {
+   "id": "e:home - a unique horror adventure:2026-10-22:UPCOMING",
+   "title": "Home - A Unique Horror Adventure",
+   "platform": "Epic Games Store",
+   "type": "free_week",
+   "status": "UPCOMING",
+   "free_from": "2026-10-22",
+   "free_until": "2026-10-29",
+   "found_utc": "2026-10-21 17:27"
+  },
+  {
+   "id": "e:sker ritual:2026-10-22:UPCOMING",
+   "title": "Sker Ritual",
+   "platform": "Epic Games Store",
+   "type": "free_week",
+   "status": "UPCOMING",
+   "free_from": "2026-10-22",
+   "free_until": "2026-10-29",
+   "found_utc": "2026-10-21 17:27"
+  },
+  {
+   "id": "r:akin",
+   "title": "akin",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:assassin of werewolf",
+   "title": "assassin of werewolf",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:baff e",
+   "title": "baff e",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:battle sumilator: counter stickman",
+   "title": "battle sumilator: counter stickman",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:crown champion - legends of the arena",
+   "title": "crown champion - legends of the arena",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:doomlander",
+   "title": "doomlander",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:fireside feelings",
+   "title": "fireside feelings",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:fishermurs",
+   "title": "fishermurs",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:fly over! 100km! mountains!",
+   "title": "fly over! 100km! mountains!",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:gangsta forest shooter",
+   "title": "gangsta forest shooter",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:hex reverse",
+   "title": "hex reverse",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:linked",
+   "title": "linked",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:pipreal\u2122",
+   "title": "pipreal\u2122",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:pony island",
+   "title": "pony island",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:rencounter",
+   "title": "rencounter",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:save the earth",
+   "title": "save the earth",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:slavistan",
+   "title": "slavistan",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:space pilgrim academy year 1",
+   "title": "space pilgrim academy year 1",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:spooky cats",
+   "title": "spooky cats",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:squad recon team pack",
+   "title": "squad recon team pack",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:weekly discussion thread | oct 02, 2026",
+   "title": "weekly discussion thread | oct 02, 2026",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:weekly discussion thread | oct 09, 2026",
+   "title": "weekly discussion thread | oct 09, 2026",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:weekly discussion thread | oct 16, 2026",
+   "title": "weekly discussion thread | oct 16, 2026",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:world of warships x blue archive \u2014 complimentary camouflage",
+   "title": "world of warships x blue archive \u2014 complimentary camouflage",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:world of warships \u2014 ning hai",
+   "title": "world of warships \u2014 ning hai",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-21",
+   "free_until": "",
+   "found_utc": "2026-10-21 18:09"
+  }
+ ]
+}
