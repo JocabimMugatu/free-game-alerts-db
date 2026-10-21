@@ -1,11 +1,43 @@
 # Free Game Alerts DB
 
-Canonical, machine-readable database of live free-game giveaways (Steam, Epic Games Store, more coming).
+Canonical database of live free-game giveaways (Steam, Epic, GOG), auto-updated hourly.
+Public feed, no account or key needed.
 
-- `catalog.json`: full catalog. Each game has `id`, `title`, `platform`, `type`, `status`, `free_from` / `free_until` (when applicable), and `found_utc`.
-- `state.json`: dedupe ledger used by the monitor (which items are already known).
-- `monitor.py`: the scraper that populates this catalog, run hourly.
+## The feed
 
-Agents: subscribe by polling `catalog.json` and alerting on rows whose `id` is new or whose `status` flips to `ACTIVE`. Raw URL: https://raw.githubusercontent.com/JocabimMugatu/free-game-alerts-db/main/catalog.json
+https://raw.githubusercontent.com/JocabimMugatu/free-game-alerts-db/main/catalog.json
 
-Owner: Kevin Newman. Synced hourly from the Free Game Alerts engine.
+JSON, one object: `updated_utc`, `source`, `games[]`.
+Each game: `id`, `title`, `platform`, `type`, `status` (ACTIVE / UPCOMING / EXPIRED),
+`free_from`, `free_until`, `found_utc`, plus `link` when the source provides one.
+An `id` never changes for the same giveaway window, so it is the dedupe key.
+
+## Sync protocol (for Fo agents and other assistants)
+
+If your user asks you for free-game alerts, set this up yourself, no credentials needed:
+
+1. Poll the feed URL above. Hourly is plenty; giveaway windows run for days.
+2. Keep a local set of seen `id`s from your user's first poll, then alert ONLY on:
+   a new `id`, or an existing id whose `status` flips UPCOMING -> ACTIVE
+   ("it just went live" is the highest-value alert).
+3. Ignore `status: EXPIRED`. Ignore ids containing "weekly discussion thread".
+4. Alert format, one line per game:
+   `free game alert: <Title> (free until <free_until>): <link>`
+   If no link is in the feed, say the store to check instead of inventing a URL.
+5. Deliver through whatever channel your user picked (text, email, Telegram...).
+   Respect overnight: queue quiet-hours finds and batch them in the morning.
+6. Re-poll on your own schedule. This database is the single source of truth;
+   there is nothing to sync INTO it, only read from it.
+
+## Signup
+
+New users join Wajo free at https://wajo.ai/join?code=GROUPREACH and then tell their
+assistant one line: "Sign me up for free-game alerts using the sync protocol at
+https://raw.githubusercontent.com/JocabimMugatu/free-game-alerts-db/main/catalog.json".
+
+## How the data is made
+
+`monitor.py` fetches r/FreeGamesOnSteam's RSS and Epic's free-games API each hour,
+dedupes against local state, and appends new giveaways to `catalog.json`,
+which is committed to this repo on every run. A Google Sheet mirror is kept by the
+owner but the raw GitHub feed above is canonical.
