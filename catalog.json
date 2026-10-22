@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-22T14:23:09Z",
+ "updated_utc": "2026-10-22T15:06:30Z",
  "source": "Free Game Alerts (Wajo product MVP)",
  "games": [
   {
@@ -301,6 +301,26 @@
    "free_from": "2026-10-29",
    "free_until": "2026-11-05",
    "found_utc": "2026-10-22 14:16"
+  },
+  {
+   "id": "e:sker ritual:2026-10-22:ACTIVE",
+   "title": "Sker Ritual",
+   "platform": "Epic Games Store",
+   "type": "free_week",
+   "status": "ACTIVE",
+   "free_from": "2026-10-22",
+   "free_until": "2026-10-29",
+   "found_utc": "2026-10-22 15:06"
+  },
+  {
+   "id": "e:home - a unique horror adventure:2026-10-22:ACTIVE",
+   "title": "Home - A Unique Horror Adventure",
+   "platform": "Epic Games Store",
+   "type": "free_week",
+   "status": "ACTIVE",
+   "free_from": "2026-10-22",
+   "free_until": "2026-10-29",
+   "found_utc": "2026-10-22 15:06"
   }
  ]
 }
