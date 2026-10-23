@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-23T00:12:31Z",
+ "updated_utc": "2026-10-23 11:10",
  "source": "Free Game Alerts (Wajo product MVP)",
  "games": [
   {
@@ -143,8 +143,8 @@
    "found_utc": "2026-10-21 18:09"
   },
   {
-   "id": "r:pipreal\u2122",
-   "title": "pipreal\u2122",
+   "id": "r:pipreal™",
+   "title": "pipreal™",
    "platform": "Steam (via r/FreeGamesOnSteam)",
    "type": "free_game",
    "status": "listed",
@@ -213,8 +213,8 @@
    "found_utc": "2026-10-21 18:09"
   },
   {
-   "id": "r:world of warships \u2014 ning hai",
-   "title": "world of warships \u2014 ning hai",
+   "id": "r:world of warships — ning hai",
+   "title": "world of warships — ning hai",
    "platform": "Steam (via r/FreeGamesOnSteam)",
    "type": "free_game",
    "status": "listed",
@@ -223,8 +223,8 @@
    "found_utc": "2026-10-21 18:09"
   },
   {
-   "id": "r:world of warships x blue archive \u2014 complimentary camouflage",
-   "title": "world of warships x blue archive \u2014 complimentary camouflage",
+   "id": "r:world of warships x blue archive — complimentary camouflage",
+   "title": "world of warships x blue archive — complimentary camouflage",
    "platform": "Steam (via r/FreeGamesOnSteam)",
    "type": "free_game",
    "status": "listed",
@@ -351,6 +351,16 @@
    "free_from": "2026-10-23",
    "free_until": "",
    "found_utc": "2026-10-23 00:12"
+  },
+  {
+   "id": "r:weekly discussion thread | oct 23, 2026",
+   "title": "weekly discussion thread | oct 23, 2026",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-23",
+   "free_until": "",
+   "found_utc": "2026-10-23 11:09"
   }
  ]
 }
