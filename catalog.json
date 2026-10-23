@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-22T22:04:36Z",
+ "updated_utc": "2026-10-23T00:12:31Z",
  "source": "Free Game Alerts (Wajo product MVP)",
  "games": [
   {
@@ -341,6 +341,16 @@
    "free_from": "2026-10-22",
    "free_until": "",
    "found_utc": "2026-10-22 22:04"
+  },
+  {
+   "id": "r:once human - ocean expansion: isles of abyss bonus pack",
+   "title": "once human - ocean expansion: isles of abyss bonus pack",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-23",
+   "free_until": "",
+   "found_utc": "2026-10-23 00:12"
   }
  ]
 }
