@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-25 20:03",
+ "updated_utc": "2026-10-25 21:10",
  "source": "Free Game Alerts (Wajo product MVP)",
  "games": [
   {
@@ -304,6 +304,16 @@
    "free_from": "2026-10-21",
    "free_until": "",
    "found_utc": "2026-10-21 18:09"
+  },
+  {
+   "id": "r:thehunter: call of the wild™",
+   "title": "thehunter: call of the wild™",
+   "platform": "Steam (via r/FreeGamesOnSteam)",
+   "type": "free_game",
+   "status": "listed",
+   "free_from": "2026-10-25",
+   "free_until": "",
+   "found_utc": "2026-10-25 21:10"
   },
   {
    "id": "r:weekly discussion thread | oct 02, 2026",
